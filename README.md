@@ -1,4 +1,4 @@
-# Interpolating Convolutional Neural Networks using Batch Normalization
+# Interpolating Convolutional Neural Networks Using Batch Normalization
 
 This repository provides training and utility scripts to reproduce results reported in [1]. For brevity, we will only mention the most important argument options in this readme file. Users wishing to use other options or adapt the techniques implemented here for their own work can reuse our modules and refer to the main scripts (`experiment1.py` and `experiment2.py`).
 
@@ -114,4 +114,4 @@ python experiment2.py --evaluate
 
 ## References
 
-[1] Data, G. W. P., Ngu, K., Murray, D. W., Prisacariu, V. A.: Interpolating Convolutional Neural Networks Using Batch Normalization. ECCV 2018.
+[1] G. Wesley P. Data, Kirjon Ngu, David W. Murray, Victor A. Prisacariu, "Interpolating Convolutional Neural Networks Using Batch Normalization," in *European Conference on Computer Vision*, 2018
