@@ -370,7 +370,7 @@ def eval_model(model, dataloader, dataset_size, criterion=nn.CrossEntropyLoss(),
             inputs, labels = inputs.to(device), labels.to(device)
 
             if isinstance(criterion, GenericLoss):
-                this_loss = criterion(model, inputs, labels)
+                this_loss, outputs = criterion(model, inputs, labels)
             else:
                 outputs = model(inputs)
                 if isinstance(outputs, tuple):
